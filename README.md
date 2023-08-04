@@ -14,6 +14,6 @@ The buy and sell signals are counted to monitor the trading activity.
 
 ## Key Takeaways:
 
-The moving average crossover strategy aims to capture trends by identifying points where shorter-term trends cross above or below longer-term trends.
-Buy signals suggest potential opportunities to enter a long position, while sell signals indicate potential exits from a long position.
+1. The moving average crossover strategy aims to capture trends by identifying points where shorter-term trends cross above or below longer-term trends.
+2. Buy signals suggest potential opportunities to enter a long position, while sell signals indicate potential exits from a long position.
 The strategy's effectiveness can vary based on the chosen timeframes for moving averages and the specific stock being analyzed.

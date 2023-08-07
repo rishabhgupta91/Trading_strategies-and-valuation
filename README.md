@@ -29,7 +29,7 @@ The aim of this pair trading strategy is to identify trading opportunities betwe
 
 **Trading Logic:**
 1. Calculate the normalized return index for each stock to create a common baseline.
-2. Compute the squared deviations between the normalized price series of the two stocks to measure the price distance.
+2. Compute the squared deviations between the normalized price series of the two stocks to measure the price distance. (Choose the pairs with minimum Normalized Price Distance)
 3. Perform a linear regression analysis to identify potential cointegration between the stock prices. (Analyzing the relationship between the stock prices to see if they move together in a similar way)
 4. Use Z-scores of the spread between XOM and CVX prices to generate entry and exit signals. (a special score that tells us when the difference between XOM and CVX prices is big or small, and use this to decide when to start or stop trading)
 5. When the Z score suggests that XOM is doing worse than usual and CVX is doing better, consider selling XOM and buying CVX. If the score says XOM is doing better and CVX is doing worse, consider selling CVX and buying XOM.
